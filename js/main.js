@@ -15,13 +15,11 @@ li.forEach((e) =>
     // appear image that accociated with clicked li
     let dataValue = document.querySelectorAll(ele.currentTarget.dataset.filter);
     imgContainer.forEach((e) => {
-      e.style.transform = " scale(0)";
-      e.style.visibility = "hidden";
+      e.style.display = "none";
     });
 
     dataValue.forEach((e) => {
-      e.style.transform = "scale(1)";
-      e.style.visibility = "visible";
+      e.style.display = "block";
     });
   })
 );
