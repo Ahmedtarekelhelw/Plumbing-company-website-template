@@ -78,6 +78,7 @@
   position: absolute;
   right: 50%;
   bottom: 100%;
+  transform: translateX(50%);
   border-radius: 0;
   z-index: 99;
 }
