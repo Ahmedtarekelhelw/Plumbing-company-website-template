@@ -4,7 +4,7 @@
 
 # Link of Website
 
-    https://awesome-movies-app.netlify.app/#/movies-app
+    https://plumbingtemplate.netlify.app/
 
 # Preview
 
